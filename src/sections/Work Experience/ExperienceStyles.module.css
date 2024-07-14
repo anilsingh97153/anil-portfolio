@@ -1,0 +1,51 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.experienceCard {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    max-width: 28ch;
+}
+.experienceCard h3 {
+    text-align: center;
+}
+
+.experienceCard p {
+    align-self: center;
+    max-width: 28ch;
+}
+
+.experienceContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap:30px;
+}
+
+@media (width >= 800px) {
+    .experienceContainer {
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        padding: 0 30px;
+    }
+
+    .experienceCard {
+        max-width: 32ch;
+    }
+
+    .experienceCard h3 {
+    }
+    
+    .experienceCard p {
+        align-self: center;
+    }
+
+}
+
+
