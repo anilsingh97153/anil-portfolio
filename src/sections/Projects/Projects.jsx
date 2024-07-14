@@ -13,7 +13,7 @@ const Projects = () => {
         <ProjectCard src={SortingViz} link="https://sorting-visualizer-by-anil.vercel.app/" h3="Sorting Vizualizer" p="Algorithm Visualizer App" />
         <ProjectCard src={WriteBlog} link="https://writeblog-alpha.vercel.app/" h3="WriteBlog" p="Full Stack Blogging App" />
         <ProjectCard src={GPT} link="https://starlit-tulumba-e8195b.netlify.app/" h3="SumZ" p="Article Summarizer App" />
-        <ProjectCard src={CodeInk} link="https://advance-tic-tac-toe-by-anil.vercel.app/" h3="CodeInk" p="Coding Editor App" />
+        <ProjectCard src={CodeInk} link="https://sorting-visualizer-by-anil.vercel.app/" h3="CodeInk" p="Coding Editor App" />
       </div>
     </section>
   );
