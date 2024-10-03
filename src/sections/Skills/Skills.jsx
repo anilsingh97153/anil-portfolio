@@ -16,6 +16,7 @@ const Skills = () => {
         <Skill skill="ReactJS" />
         <Skill skill="Tailwind CSS" />
         <Skill skill="Bootstrap" />
+        <Skill skill="Figma" />
       </div>
       <hr />
       <div className={styles.skillList}>
